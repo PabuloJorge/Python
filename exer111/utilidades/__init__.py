@@ -1,0 +1,1 @@
+from exer111.utilidades import moeda, dado
