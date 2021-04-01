@@ -1,0 +1,24 @@
+Programas Instalados:
+
+- PyCharm
+- Python
+- DB broser SQLite
+
+Comandos Terminal: 
+
+<< caminho - comando (explicação) >>
+1 - ./ - python -m venv venv (instalar a maquina virtual para que as dependências instaladas fiquem restritas ao diretório do projeto e não de forma global) 
+
+2 - ./venv/Scripts - activate (ativar a maquina virtual)
+
+3 - ./venv/Scripts - pip install Django (instalar o Django)
+
+4 - ./ - django-admin startproject <nome-do-projeto> . (Criar o projeto) 
+
+5 - ./ - python manage.py startapp <nome-do-app> (Criar a aplicação)
+
+6 - ./ - python manage.py runserver (rodar o servidor)
+
+7 - ./ - python manage.py makemigrations (criar o model)
+
+8 - ./ - python manage.py migrate (cria o banco de dados com base no model)
